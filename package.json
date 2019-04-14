@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "git+https://github.com/zsubzwary/ZakiActivityIndicator.git"
 	},
-	"homepage": "https://github.com/zsubzwary/ZakiActivityIndicator#readme",
+	"homepage": "https://github.com/zsubzwary/ZakiActivityIndicator#README",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
