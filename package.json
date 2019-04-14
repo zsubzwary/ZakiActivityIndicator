@@ -15,5 +15,8 @@
 	"license": "MIT",
 	"devDependencies": {
 		"jest": "^24.7.1"
+	},
+	"dependencies": {
+		"typescript": "^3.4.3"
 	}
 }
