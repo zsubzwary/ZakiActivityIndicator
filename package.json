@@ -1,6 +1,6 @@
 {
 	"name": "zakiactivityindicator",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A small package for ReactNative that contains a loading icon component.",
 	"main": "index.js",
 	"repository": {
@@ -14,12 +14,12 @@
 	"keywords": [
 		"loading Component",
 		"loading",
-		"loading ReactNative"
+		"loading ReactNative",
+		"ZakiActivityIndicator",
+		"Zaki ActivityIndicator"
 	],
-	"author": "Zaki",
+	"author": "Zakawat",
 	"license": "MIT",
-	"devDependencies": {
-		"jest": "^24.7.1"
-	},
+	"devDependencies": {},
 	"dependencies": {}
 }
