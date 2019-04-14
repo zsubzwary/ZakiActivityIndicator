@@ -24,30 +24,30 @@ import { Text, View } from 'react-native';
 import { ZakiActivityIndicator } from 'zakiactivityindicator';
 
 export class HomeScreen extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			loading: true
-		};
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: true
+    };
 
-		// To hide loading after a specified time
-		setTimeout(() => {
-			this.setState({
-				loading: false
-			});
-		}, 2000);
-	}
+    // To hide loading after a specified time
+    setTimeout(() => {
+      this.setState({
+        loading: false
+      });
+    }, 2000);
+  }
 
-	render() {
-		return (
-			<View>
-				<ZakiActivityIndicator loading={this.state.loading} />
+  render() {
+    return (
+      <View>
+        <ZakiActivityIndicator loading={this.state.loading} />
 
-				<Text style={{ fontSize: 30, color: '#000' }}> Home Screen </Text>
-				{/* All you content goes in here ! */}
-			</View>
-		);
-	}
+        <Text style={{ fontSize: 30, color: '#000' }}> Home Screen </Text>
+        {/* All you content goes in here ! */}
+      </View>
+    );
+  }
 }
 
 export default HomeScreen;
@@ -71,38 +71,38 @@ import { Text, View, Button } from 'react-native';
 import { ZakiActivityIndicator } from 'zakiactivityindicator';
 
 export class HomeScreen extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			loading: false
-		};
-	}
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: false
+    };
+  }
 
-	render() {
-		return (
-			<View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-				<ZakiActivityIndicator loading={this.state.loading} />
+  render() {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <ZakiActivityIndicator loading={this.state.loading} />
 
-				<Text style={{ fontSize: 30, color: '#000' }}> 😇 !! Hello World !! 😇 </Text>
+        <Text style={{ fontSize: 30, color: '#000' }}> 😇 !! Hello World !! 😇 </Text>
 
-				<Button
-					title={'Let Do Some Work'}
-					onPress={() => {
-						this.setState({
-							loading: true
-						});
+        <Button
+          title={'Let Do Some Work'}
+          onPress={() => {
+            this.setState({
+              loading: true
+            });
 
-						// Hide loading after your processing is done
-						setTimeout(() => {
-							this.setState({
-								loading: false
-							});
-						}, 2000);
-					}}
-				/>
-			</View>
-		);
-	}
+            // Hide loading after your processing is done
+            setTimeout(() => {
+              this.setState({
+                loading: false
+              });
+            }, 2000);
+          }}
+        />
+      </View>
+    );
+  }
 }
 
 export default HomeScreen;
