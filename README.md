@@ -28,7 +28,7 @@ export class HomeScreen extends Component {
 			loading: true
 		};
 
-        // To hide loading after a specified time
+		// To hide loading after a specified time
 		setTimeout(() => {
 			this.setState({
 				loading: false
