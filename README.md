@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/zakiactivityindicator.svg) ![npm](https://img.shields.io/npm/dt/zakiactivityindicator.svg) 
+![npm](https://img.shields.io/npm/v/zakiactivityindicator.svg) ![npm](https://img.shields.io/npm/dt/zakiactivityindicator.svg) [![install size](https://packagephobia.now.sh/badge?p=zakiactivityindicator)](https://packagephobia.now.sh/result?p=zakiactivityindicator)
 
 ---
 
