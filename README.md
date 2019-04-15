@@ -4,7 +4,7 @@
 
 ## Installation
 
-Open your project and run `npm i zakiactivityindicator` or `yarn add zakiactivityindicator`
+Open your project and run `npm i zakiactivityindicator` OR `yarn add zakiactivityindicator`
 
 ## Usage
 
