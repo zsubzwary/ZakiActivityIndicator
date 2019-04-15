@@ -23,5 +23,9 @@
   "author": "Zakawat",
   "license": "MIT",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+      "src/ZakiActivityIndicator.js",
+      "index.js"
+  ]
 }
