@@ -1,27 +1,27 @@
 {
-	"name": "zakiactivityindicator",
-	"version": "1.0.3",
-	"description": "A small package for ReactNative that contains a loading icon component.",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/zsubzwary/ZakiActivityIndicator.git"
-	},
-	"homepage": "https://github.com/zsubzwary/ZakiActivityIndicator#README",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"loading Component",
-		"loading",
-		"loading ReactNative",
-		"ZakiActivityIndicator",
-		"loading icon",
-		"loading icon react",
-		"loading icon react native"
-	],
-	"author": "Zakawat",
-	"license": "MIT",
-	"devDependencies": {},
-	"dependencies": {}
+  "name": "zakiactivityindicator",
+  "version": "1.0.4",
+  "description": "A small package for ReactNative that contains a loading icon component.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsubzwary/ZakiActivityIndicator.git"
+  },
+  "homepage": "https://github.com/zsubzwary/ZakiActivityIndicator#README",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loading Component",
+    "loading",
+    "loading ReactNative",
+    "ZakiActivityIndicator",
+    "loading icon",
+    "loading icon react",
+    "loading icon react native"
+  ],
+  "author": "Zakawat",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
 }
