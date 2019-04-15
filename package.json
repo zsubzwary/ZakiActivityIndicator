@@ -1,6 +1,6 @@
 {
   "name": "zakiactivityindicator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A small package for ReactNative that contains a loading icon component.",
   "main": "index.js",
   "repository": {
@@ -25,7 +25,7 @@
   "devDependencies": {},
   "dependencies": {},
   "files": [
-      "src/ZakiActivityIndicator.js",
-      "index.js"
+    "src/ZakiActivityIndicator.js",
+    "index.js"
   ]
 }
