@@ -8,7 +8,7 @@ Open your project and run `npm i zakiactivityindicator` or `yarn add zakiactivit
 
 ## Usage
 
-1. Import the package with `import { ZakiActivityIndicator } from 'zakiactivityindicator';`
+1. Import the package with `import ZakiActivityIndicator from 'zakiactivityindicator';`
 2. Add this to the render method `<ZakiActivityIndicator loading={this.state.loading} />`
 
 This will work based on the loading state, if the state `loading` is set to `true` it will show up, otherwise not.
@@ -21,7 +21,7 @@ This will work based on the loading state, if the state `loading` is set to `tru
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-import { ZakiActivityIndicator } from 'zakiactivityindicator';
+import ZakiActivityIndicator from 'zakiactivityindicator';
 
 export class HomeScreen extends Component {
   constructor(props) {
@@ -68,7 +68,7 @@ export default HomeScreen;
 import React, { Component } from 'react';
 import { Text, View, Button } from 'react-native';
 
-import { ZakiActivityIndicator } from 'zakiactivityindicator';
+import ZakiActivityIndicator from 'zakiactivityindicator';
 
 export class HomeScreen extends Component {
   constructor(props) {
@@ -86,7 +86,7 @@ export class HomeScreen extends Component {
         <Text style={{ fontSize: 30, color: '#000' }}> 😇 !! Hello World !! 😇 </Text>
 
         <Button
-          title={'Let Do Some Work'}
+          title={'Let’s Do Some Work'}
           onPress={() => {
             this.setState({
               loading: true
